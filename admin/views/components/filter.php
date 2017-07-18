@@ -17,6 +17,7 @@
             <option value="name-desc" <?php if( isset( $_GET['order-by'] ) && $_GET['order-by'] == 'name-desc' ){ echo 'selected="selected"'; } ?>><?php _e('Product name DESC','stock-manager'); ?></option>
             <option value="sku-asc" <?php if( isset( $_GET['order-by'] ) && $_GET['order-by'] == 'sku-asc' ){ echo 'selected="selected"'; } ?>><?php _e('SKU ASC','stock-manager'); ?></option>
             <option value="sku-desc" <?php if( isset( $_GET['order-by'] ) && $_GET['order-by'] == 'sku-desc' ){ echo 'selected="selected"'; } ?>><?php _e('SKU DESC','stock-manager'); ?></option>
+            <option value="low-stock" <?php if( isset( $_GET['order-by'] ) && $_GET['order-by'] == 'low-stock' ){ echo 'selected="selected"'; } ?>><?php _e('Low stock','stock-manager'); ?></option>
           </select>
 
           <select name="product-type">
