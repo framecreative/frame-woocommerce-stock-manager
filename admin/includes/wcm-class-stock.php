@@ -148,28 +148,35 @@ class WCM_Stock {
 
       		if( $order_by == 'name-asc' ){
 
-      			$args['orderby'] = 'title';
+      				$args['orderby'] = 'title';
 				$args['order'] = 'ASC';
 
       		}
       		elseif( $order_by == 'name-desc' ){
 
-      			$args['orderby'] = 'title';
+      				$args['orderby'] = 'title';
 				$args['order'] = 'DESC';
 
    			}
    			elseif( $order_by == 'sku-asc' ){
 
-      			$args['meta_key'] = '_sku';
-      			$args['orderby'] = 'meta_value_num';
+      				$args['meta_key'] = '_sku';
+      				$args['orderby'] = 'meta_value_num';
 				$args['order'] = 'ASC';   				
 
    			}
    			elseif( $order_by == 'sku-desc' ){
 
    				$args['meta_key'] = '_sku';
-      			$args['orderby'] = 'meta_value_num';
+      				$args['orderby'] = 'meta_value_num';
 				$args['order'] = 'DESC';
+
+   			}
+			elseif( $order_by == 'low-stock' ){
+
+   				$args['meta_key'] = '_stock';
+      				$args['orderby'] = 'meta_value';
+				$args['order'] = 'ASC';
 
    			}
 
