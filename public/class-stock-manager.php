@@ -16,7 +16,7 @@ class Stock_Manager {
 	 *
 	 * @var     string
 	 */
-	const VERSION = '1.1.3';
+	const VERSION = '1.1.6';
 
 	/**
 	 * Plugin slug
@@ -50,8 +50,8 @@ class Stock_Manager {
 		add_action( 'wpmu_new_blog', array( $this, 'activate_new_site' ) );
 
    add_action( 'init', array( $this, 'output_buffer' ) );
-    
-	}                   
+
+	}
 
 	/**
 	 * Return the plugin slug.
@@ -233,9 +233,9 @@ class Stock_Manager {
 	/**
 	 * Headers allready sent fix
 	 *
-	 */        
+	 */
   public function output_buffer() {
 		ob_start();
-  } 
+  }
 
 }//End class

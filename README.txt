@@ -1,19 +1,19 @@
 === WooCommerce Stock Manager ===
 Contributors: Musilda
-Donate link: 
+Donate link:
 Tags: WooCommerce, stock manager
 Requires at least: 3.5.1
 Tested up to: 4.7
-Stable tag: 1.0.1
+Stable tag: 1.1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-WooCommerce Stock Manager allows you manage stock for products and their variables from one screen. 
+WooCommerce Stock Manager allows you manage stock for products and their variables from one screen.
 
-Plugin is compatible with WooCommerce 3.0+ and is tested on 3.0.7 version. 
-For older version WooCommerce use plugin 1.1.4 
+Plugin is compatible with WooCommerce 3.0+ and is tested on 3.0.7 version.
+For older version WooCommerce use plugin 1.1.4
 
 A few notes about the plugin:
 
@@ -33,7 +33,7 @@ You can filter products by type, category, stock manage or stock status.
 You can sort products by name or sku.
 Searching products by name or sku.
 
-For better usabillity is possible hide some table cells. 
+For better usabillity is possible hide some table cells.
 
 Variants for variable product is posible edit after click on "Show variables" button.
 Each product or variation, can be save separatelly, or you can save all displayed data.
@@ -50,7 +50,7 @@ Stock status - values: "instock", "outofstock". If is empty "outofstock" will be
 Backorders - values: "yes", "notify", "no". If is empty "no" will be save.
 Stock - quantity value.
 Product type - type of product.
-Parent SKU - if product is variant, parent product SKU is displayed for better filtering csv file.     
+Parent SKU - if product is variant, parent product SKU is displayed for better filtering csv file.
 
 
 == Installation ==
@@ -98,7 +98,7 @@ A: Be sure, that you have active stock manage.
 = 1.1.5 =
 * WooCommerce 3.0+ compatibility
 * Sku edit is now via onclick function
-* Fix Sku display issue 
+* Fix Sku display issue
 * French translations
 
 = 1.1.4 =
@@ -152,7 +152,7 @@ A: Be sure, that you have active stock manage.
 = 1.0.5 =
 * Search product by sku
 * Edit product regular price
-* Link to product edit page 
+* Link to product edit page
 
 = 1.0.4 =
 * Fix error on attribut label displaying
@@ -191,7 +191,7 @@ Startup version
 = 1.0.5 =
 * Search product by sku
 * Edit product regular price
-* Link to product edit page 
+* Link to product edit page
 
 = 1.0.4 =
 * Fix error on attribut label displaying
