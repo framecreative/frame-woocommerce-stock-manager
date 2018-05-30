@@ -1,5 +1,5 @@
 {
-    "name": "framecreative/woocommerce-stock-manager",
+    "name": "framecreative/frame-woocommerce-stock-manager",
     "type": "wordpress-plugin",
     "require": {
         "composer/installers": "~1.0"
