@@ -3,7 +3,7 @@
  * Plugin Name:       Frame WooCommerce Stock Manager
  * Plugin URI:        https://github.com/framedigital/woocommerce-stock-manager
  * Description:       WooCommerce Stock Manager
- * Version:           1.1.7
+ * Version:           1.1.8
  * Author:            F / R / A / M / E Creative / Vladislav Musílek
  * Author URI:        https://framecreative.com.au
  * Text Domain:       stock-manager

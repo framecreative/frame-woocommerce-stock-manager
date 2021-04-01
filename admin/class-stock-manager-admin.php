@@ -134,27 +134,29 @@ class Stock_Manager_Admin {
 	 *
 	 * @since    1.0.0
 	 */
-	public function add_plugin_admin_menu() {
+    public function add_plugin_admin_menu() {
 
-		add_menu_page(
-			__( 'WooCommerce Stock Manager', $this->plugin_slug ),
-			__( 'WooCommerce Stock Manager', $this->plugin_slug ),
-			'manage_woocommerce',
-			'stock-manager',
-			array( $this, 'display_plugin_admin_page' )
-		);
+        add_menu_page(
+            __( 'WooCommerce Stock Manager', $this->plugin_slug ),
+            __( 'WooCommerce Stock Manager', $this->plugin_slug ),
+            'manage_woocommerce',
+            'stock-manager',
+            array( $this, 'display_plugin_admin_page' ),
+            'dashicons-book-alt',
+            null
+        );
 
-    add_submenu_page(
-			'stock-manager',
-      		__( 'Import/Export', $this->plugin_slug ),
-			__( 'Import/Export', $this->plugin_slug ),
-			'manage_woocommerce',
-			'stock-manager-import-export',
-			array( $this, 'display_import_export_page' ),
-			'dashicons-book-alt'
-		);
+        add_submenu_page(
+            'stock-manager',
+            __( 'Import/Export', $this->plugin_slug ),
+            __( 'Import/Export', $this->plugin_slug ),
+            'manage_woocommerce',
+            'stock-manager-import-export',
+            array( $this, 'display_import_export_page' ),
+            null
+        );
 
-	}
+    }
 
 	/**
 	 * Render the settings page for this plugin.
